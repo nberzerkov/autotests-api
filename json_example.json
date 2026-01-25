@@ -1,0 +1,13 @@
+{
+  "name": "Никита",
+  "age": 25,
+  "is_student": false,
+  "courses": ["Python", "QA Automation", "API Testing", {"name":  "Test"}],
+  "address": {
+    "city": "Москва",
+    "zip-code": 284743,
+    "ulitsa": {
+      "name": "Быстринская"
+    }
+  }
+}
