@@ -41,7 +41,6 @@ update_payload = {
     "middleName": "NameMiddle"
 }
 
-
 update_user_response = httpx.patch(f"{BASE_URL}/api/v1/users/{create_user_response_data['user']['id']}", headers=update_user_headers, json=update_payload)
 update_user_response_data = update_user_response.json()
 
